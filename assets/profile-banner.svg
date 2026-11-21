@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Md Azhar Khan — GitHub profile banner</title>
+<desc id="desc">A violet night sky over a geometric city, with a moon and restrained stars.</desc>
+<defs>
+  <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#100d1d"/><stop offset=".55" stop-color="#211534"/><stop offset="1" stop-color="#351d4b"/></linearGradient>
+  <linearGradient id="glow" x2="0" y2="1"><stop stop-color="#c18cff" stop-opacity=".35"/><stop offset="1" stop-color="#7b4ba8" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#cba5ff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect width="1200" height="320" rx="18" fill="url(#sky)"/>
+<rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+<circle cx="990" cy="108" r="72" fill="#9b70bd" opacity=".14"/>
+<circle cx="990" cy="100" r="43" fill="#d8b7f0"/>
+<circle cx="1007" cy="88" r="42" fill="#211534"/>
+<g fill="#d8b7f0" opacity=".8">
+<circle cx="870" cy="55" r="2"/><circle cx="1092" cy="85" r="2"/><circle cx="913" cy="142" r="1.5"/><circle cx="1122" cy="155" r="1.5"/>
+<path d="M830 98h14m-7-7v14M1070 46h12m-6-6v12M767 148h10m-5-5v10"/>
+</g>
+<ellipse cx="982" cy="212" rx="275" ry="80" fill="url(#glow)"/>
+<path d="M0 245 112 188l84 43 99-69 91 69 85-38 100 59 108-81 103 61 113-74 112 68 93-35v129H0z" fill="#402255"/>
+<path d="M0 270 94 226l87 44 74-54 110 63 88-42 115 48 91-57 93 52 101-50 106 58 99-38 142 63v7H0z" fill="#2c1b3d"/>
+<g fill="#191323">
+<path d="M0 260h72v60H0zm70-26h55v86H70zm95 25h72v61h-72zm93-33h58v94h-58zm76 28h84v66h-84zm113-38h62v104h-62zm78 27h86v77h-86zm116-41h57v118h-57zm75 30h80v88h-80zm110-28h70v116h-70zm87 27h91v89h-91zm111-39h60v128h-60zm80 34h75v94h-75zm90-17h79v111h-79z"/>
+</g>
+<g fill="#b783db" opacity=".72">
+<path d="M84 251h7v10h-7zm20-7h7v10h-7zm84 22h7v10h-7zm151 5h7v10h-7zm146-32h7v10h-7zm23 19h7v10h-7zm218 4h7v10h-7zm58-25h7v10h-7zm144 2h7v10h-7zm116-16h7v10h-7zm89 40h7v10h-7z"/>
+</g>
+<rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#a975cc" stroke-opacity=".5"/>
+<path d="M48 69h28M48 69v28M1152 251h-28m28 0v-28" fill="none" stroke="#ca9bec" stroke-width="2" opacity=".85"/>
+<text x="76" y="126" fill="#caa5e8" font-family="monospace" font-size="15" letter-spacing="2">MD AZHAR KHAN</text>
+<text x="72" y="181" fill="#fbf7ff" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="700">Building with data and code</text>
+<text x="76" y="215" fill="#c4b4d1" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing=".6">Machine Learning  /  Python  /  Full-stack Development</text>
+<rect x="76" y="238" width="216" height="2" rx="1" fill="#b77be2" opacity=".9"/>
+</svg>
