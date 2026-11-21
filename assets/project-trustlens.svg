@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250">
+<defs><linearGradient id="b" x2="1" y2="1"><stop stop-color="#171122"/><stop offset="1" stop-color="#56306e"/></linearGradient></defs>
+<rect width="600" height="250" rx="16" fill="url(#b)"/><g fill="#eee1f6" opacity=".45"><circle cx="53" cy="37" r="2"/><circle cx="522" cy="48" r="2"/><circle cx="467" cy="83" r="1.5"/><circle cx="106" cy="79" r="1.5"/></g>
+<text x="38" y="53" fill="#d4b2e8" font-family="monospace" font-size="13" letter-spacing="2">PROJECT / 02</text><text x="38" y="88" fill="#fff" font-family="Arial,sans-serif" font-size="23" font-weight="700">TRUSTLENS</text>
+<rect x="38" y="108" width="524" height="100" rx="10" fill="#181321" fill-opacity=".72" stroke="#c28fe2" stroke-opacity=".38"/>
+<path d="M300 124 346 141v28c0 22-19 37-46 47-27-10-46-25-46-47v-28z" fill="#4c3260" stroke="#d5a5f0" stroke-width="2"/>
+<path d="m281 169 13 13 27-30" fill="none" stroke="#f4e7ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="#c4a3d9" opacity=".7"><rect x="68" y="131" width="120" height="6" rx="3"/><rect x="68" y="147" width="164" height="5" rx="2.5"/><rect x="404" y="131" width="117" height="6" rx="3"/><rect x="404" y="147" width="92" height="5" rx="2.5"/></g>
+<rect x="38" y="222" width="98" height="4" rx="2" fill="#bd88df"/><rect x="146" y="222" width="54" height="4" rx="2" fill="#88649f"/>
+<rect x="1" y="1" width="598" height="248" rx="15" fill="none" stroke="#bd88df" stroke-opacity=".52"/>
+</svg>
