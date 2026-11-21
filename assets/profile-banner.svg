@@ -1,33 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-<title id="title">Md Azhar Khan — GitHub profile banner</title>
-<desc id="desc">A violet night sky over a geometric city, with a moon and restrained stars.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Md Azhar Khan profile banner</title>
+<desc id="desc">Violet digital nightscape with a moonlit skyline, stars, and subtle code editor details.</desc>
 <defs>
-  <linearGradient id="sky" x2="1" y2="1"><stop stop-color="#100d1d"/><stop offset=".55" stop-color="#211534"/><stop offset="1" stop-color="#351d4b"/></linearGradient>
-  <linearGradient id="glow" x2="0" y2="1"><stop stop-color="#c18cff" stop-opacity=".35"/><stop offset="1" stop-color="#7b4ba8" stop-opacity="0"/></linearGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#cba5ff" stroke-opacity=".035"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#100d1a"/><stop offset=".52" stop-color="#21142f"/><stop offset="1" stop-color="#47235f"/></linearGradient>
+  <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d59cff" stop-opacity=".26"/><stop offset="1" stop-color="#a26bc9" stop-opacity="0"/></linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#21182d" stop-opacity=".95"/><stop offset="1" stop-color="#372248" stop-opacity=".8"/></linearGradient>
+  <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#e6ccff" opacity=".16"/></pattern>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
 </defs>
-<rect width="1200" height="320" rx="18" fill="url(#sky)"/>
-<rect width="1200" height="320" rx="18" fill="url(#grid)"/>
-<circle cx="990" cy="108" r="72" fill="#9b70bd" opacity=".14"/>
-<circle cx="990" cy="100" r="43" fill="#d8b7f0"/>
-<circle cx="1007" cy="88" r="42" fill="#211534"/>
-<g fill="#d8b7f0" opacity=".8">
-<circle cx="870" cy="55" r="2"/><circle cx="1092" cy="85" r="2"/><circle cx="913" cy="142" r="1.5"/><circle cx="1122" cy="155" r="1.5"/>
-<path d="M830 98h14m-7-7v14M1070 46h12m-6-6v12M767 148h10m-5-5v10"/>
+<rect width="1200" height="360" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="360" rx="20" fill="url(#dots)" opacity=".32"/>
+<ellipse cx="936" cy="194" rx="290" ry="124" fill="#9a5fc1" opacity=".24" filter="url(#blur)"/>
+<!-- moon -->
+<circle cx="1010" cy="102" r="58" fill="#ddb9f3" opacity=".13"/>
+<circle cx="1010" cy="102" r="39" fill="#e7d0f6"/>
+<circle cx="1027" cy="89" r="38" fill="#281936"/>
+<g fill="#f4e5ff" opacity=".86">
+<circle cx="917" cy="61" r="2"/><circle cx="1112" cy="92" r="2"/><circle cx="1093" cy="164" r="1.7"/><circle cx="848" cy="138" r="1.5"/>
+<path d="M880 101h15m-7.5-7.5v15M1084 47h12m-6-6v12M787 158h12m-6-6v12"/>
 </g>
-<ellipse cx="982" cy="212" rx="275" ry="80" fill="url(#glow)"/>
-<path d="M0 245 112 188l84 43 99-69 91 69 85-38 100 59 108-81 103 61 113-74 112 68 93-35v129H0z" fill="#402255"/>
-<path d="M0 270 94 226l87 44 74-54 110 63 88-42 115 48 91-57 93 52 101-50 106 58 99-38 142 63v7H0z" fill="#2c1b3d"/>
-<g fill="#191323">
-<path d="M0 260h72v60H0zm70-26h55v86H70zm95 25h72v61h-72zm93-33h58v94h-58zm76 28h84v66h-84zm113-38h62v104h-62zm78 27h86v77h-86zm116-41h57v118h-57zm75 30h80v88h-80zm110-28h70v116h-70zm87 27h91v89h-91zm111-39h60v128h-60zm80 34h75v94h-75zm90-17h79v111h-79z"/>
+<!-- distant ridge -->
+<path d="M0 264 76 231l59 29 95-63 58 48 76-27 67 37 76-63 77 53 73-47 63 42 93-74 74 48 71-42 111 57v131H0z" fill="#4b2a63" opacity=".88"/>
+<path d="M0 286 112 247l77 33 81-51 75 58 101-39 85 47 88-49 103 43 75-67 90 54 83-42 89 57 85-35 76 35v69H0z" fill="#30203d"/>
+<!-- skyline -->
+<g fill="#17131f">
+<path d="M0 283h74v77H0zm64-38h52v115H64zm86 52h70v69h-70zm88-56h56v125h-56zm73 33h89v92h-89zm115-58h65v150h-65zm83 42h84v108h-84zm105-26h57v134h-57zm77 31h93v103h-93zm116-57h62v160h-62zm81 45h76v115h-76zm99-30h58v145h-58zm76 37h89v108h-89zm103-53h94v161h-94z"/>
 </g>
-<g fill="#b783db" opacity=".72">
-<path d="M84 251h7v10h-7zm20-7h7v10h-7zm84 22h7v10h-7zm151 5h7v10h-7zm146-32h7v10h-7zm23 19h7v10h-7zm218 4h7v10h-7zm58-25h7v10h-7zm144 2h7v10h-7zm116-16h7v10h-7zm89 40h7v10h-7z"/>
+<g fill="#bb86de" opacity=".78">
+<path d="M20 302h7v12h-7zm28 17h7v11h-7zm31-40h7v12h-7zm74 52h7v11h-7zm36-11h7v11h-7zm92-70h7v12h-7zm25 21h7v12h-7zm89 43h7v11h-7zm103-75h7v13h-7zm28 25h7v13h-7zm65 62h7v12h-7zm73-50h7v12h-7zm88 35h7v12h-7zm86-54h7v12h-7zm33 27h7v12h-7zm89 39h7v12h-7zm72-91h7v12h-7zm45 29h7v12h-7zm92 48h7v12h-7z"/>
 </g>
-<rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#a975cc" stroke-opacity=".5"/>
-<path d="M48 69h28M48 69v28M1152 251h-28m28 0v-28" fill="none" stroke="#ca9bec" stroke-width="2" opacity=".85"/>
-<text x="76" y="126" fill="#caa5e8" font-family="monospace" font-size="15" letter-spacing="2">MD AZHAR KHAN</text>
-<text x="72" y="181" fill="#fbf7ff" font-family="Arial,Helvetica,sans-serif" font-size="43" font-weight="700">Building with data and code</text>
-<text x="76" y="215" fill="#c4b4d1" font-family="Arial,Helvetica,sans-serif" font-size="18" letter-spacing=".6">Machine Learning  /  Python  /  Full-stack Development</text>
-<rect x="76" y="238" width="216" height="2" rx="1" fill="#b77be2" opacity=".9"/>
+<!-- code window -->
+<g transform="translate(790 212)">
+<rect width="328" height="97" rx="10" fill="url(#panel)" stroke="#c28fe2" stroke-opacity=".54"/>
+<path d="M0 26h328" stroke="#c28fe2" stroke-opacity=".3"/>
+<circle cx="17" cy="13" r="3" fill="#d49bf0"/><circle cx="29" cy="13" r="3" fill="#9472b0"/><circle cx="41" cy="13" r="3" fill="#6d527d"/>
+<text x="17" y="48" fill="#d6b0ee" font-family="monospace" font-size="12">model.predict(forecast)</text>
+<text x="17" y="67" fill="#a996b4" font-family="monospace" font-size="11"># air quality · next day</text>
+<rect x="17" y="79" width="86" height="4" rx="2" fill="#bd88df" opacity=".72"/>
+<rect x="110" y="79" width="49" height="4" rx="2" fill="#84639d" opacity=".75"/>
+</g>
+<rect x="32" y="39" width="2" height="278" rx="1" fill="#b67fda" opacity=".68"/>
+<text x="66" y="91" fill="#d0a6ec" font-family="monospace" font-size="14" letter-spacing="3">MD AZHAR KHAN</text>
+<text x="62" y="153" fill="#fffaff" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="700" letter-spacing=".2">Code with purpose.</text>
+<text x="66" y="185" fill="#c8b4d5" font-family="Arial,Helvetica,sans-serif" font-size="17" letter-spacing="1.2">MACHINE LEARNING  ·  PYTHON  ·  FULL-STACK</text>
+<path d="M66 210h124" stroke="#c28fe2" stroke-width="2"/>
+<path d="M46 50h20M46 50v20M1154 310h-20m20 0v-20" fill="none" stroke="#d3a3f0" stroke-width="2" opacity=".8"/>
+<rect x="1" y="1" width="1198" height="358" rx="19" fill="none" stroke="#a975cc" stroke-opacity=".54"/>
 </svg>
